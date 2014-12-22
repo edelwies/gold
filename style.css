@@ -1,0 +1,35 @@
+.logoimg {
+   height: 110;
+   width: 340;
+}
+.menu {
+   background-color: #D4AF37;
+   width: 500px;
+   height: 50px;
+   margin-left: 100px;
+
+
+}
+li {
+   list-style-type:none;
+   padding: 10px;
+   padding-left: 30px;
+   margin-left: 10px;
+}
+.content {
+    border-top: 10px;
+   border-top-style: solid;
+    border-top-color: #EEE8AA;
+   /*background-color: #FAFAD2;*/
+   height: 300px;
+}
+
+.left-side-menu  {
+   float:right;
+
+}
+.left-side-menu li {
+   list-style-type:none;
+   width: 50px;
+   height: 100px;
+}
