@@ -6,30 +6,95 @@
    background-color: #D4AF37;
    width: 500px;
    height: 50px;
-   margin-left: 100px;
+
+   display: block;
+   text-align: center;
 
 
 }
-li {
+.list-menu {
    list-style-type:none;
-   padding: 10px;
-   padding-left: 30px;
-   margin-left: 10px;
-}
+   padding-top: 10px;
+
+ }
+
+
 .content {
-    border-top: 10px;
-   border-top-style: solid;
-    border-top-color: #EEE8AA;
-   /*background-color: #FAFAD2;*/
-   height: 300px;
+   border-top: 10px solid #EEE8AA;
+   height: 550px;
 }
 
 .left-side-menu  {
    float:right;
-
+   text-align: right;
 }
 .left-side-menu li {
    list-style-type:none;
-   width: 50px;
+   width: 100px;
    height: 100px;
+}
+
+a {
+   text-decoration: none;
+}
+
+table, td {
+    border: 1px solid black;
+}
+
+table {
+   width: 500px;
+  float: right;
+   margin-top: 20px;
+}
+
+td img {
+   height: 200px;
+   width: 150;
+}
+
+.footer {
+   background-color: #D4AF37;
+   width: 100%;
+   height: 30px;
+   text-align: center;
+   font-size: small;
+    border-bottom: 5px solid #EEE8AA;
+   display: block;
+
+}
+.list-menu a {
+   padding-right: 30px;
+}
+
+.table-form {
+   float: right;
+   direction: rtl;
+   margin-right: 50px;
+   padding: 20px;
+
+
+}
+.table-form td {
+   border-style: none;
+   width: 5px;
+}
+
+.contactform {
+  text-align: center;
+}
+
+caption {
+   padding-bottom: 30px;
+}
+
+input.buttonsform {
+   margin-top: 30px;
+}
+
+.img-contact {
+margin-top: 100px;
+width: 300px;
+height: 260;
+margin-left: 60px;
 }
