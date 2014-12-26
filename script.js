@@ -4,6 +4,5 @@ function send(){
     var email = document.getElementById("email").value;
     var msg = document.getElementById("msg").value;
 
-    window.open('mailto:mary@diamondriver.ir?subject=' + full_name + '&body=' + msg);
-
+    alert('I will send a message to "mary@diamondrive.ir" using: (from:'+ email + ') \nMessage: ' + msg);
 };
