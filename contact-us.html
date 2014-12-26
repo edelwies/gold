@@ -6,45 +6,116 @@
   </head>
   <body>
 
-     <div class="nav-group">
-       <a href="index.html">Home</a>
-       >
-       <a href="contact-us.html">Contact us</a>
-     </div>
+      <div class="header">
+        <object
+        classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+        codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,42,0"
+        id="Movie1"
+        class="logoimg"
+        width="264" height="129"
+      >
+        <param name="movie" value="Movie1.swf">
+        <param name="bgcolor" value="#FFFFFF">
+        <param name="quality" value="high">
+        <param name="seamlesstabbing" value="false">
+        <param name="allowscriptaccess" value="samedomain">
+        <embed
+          type="application/x-shockwave-flash"
+          pluginspage="http://www.adobe.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"
+          name="Movie1"
+          width="264" height="129"
+          src="Movie1.swf"
+          bgcolor="#FFFFFF"
+          quality="high"
+          seamlesstabbing="false"
+          allowscriptaccess="samedomain"
+        >
+          <noembed>
+          </noembed>
+        </embed>
+      </object>
 
+      </div>
+      <div class="menu">
+       <ul>
+         <li class="item red ">
+           <a  href="index.html" >Home</a>
+         </li>
+         <li class="item blue">
+           <a href="aboutus">About us</a>
+         </li>
+         <li class="item green active">
+           <a href="contact-us.html">Contact us</a>
+         </li>
+       </ul>
+      </div>
+      <br />
+      <div class="content">
+        <div class="center-content">
+              <form>
+                <fieldset>
+                  <legend>تماس با ما</legend>
+                  <div class="field">
+                    <label>نام:</label>
+                    <input type="text" name="firstname" />
+                  </div>
+
+                  <div class="field">
+                    <label> نام خانوادگی:</label>
+                    <input type="text" name="lastname" />
+                  </div>
+
+                  <div class="field">
+                    <label> ایمیل: </label>
+                    <input type="text" name="email" placeholder="m@example.com" />
+                  </div>
+
+                  <div class="field">
+                    <label> پیغام: </label>
+                    <textarea rows="10" cols="30"></textarea>
+                  </div>
+
+                  <div class="field">
+                    <input class="button left  orange" type="submit" value="Send Info" />
+                    <input class="button right blue" type="reset" value="Reset">
+                  </div>
+                </fieldset>
+              </form>
+        </div>
+      </div>
     <div class="contactform">
       <table class="table-form">
         <caption>contact Form</caption>
         <form action="MAILTO:mary@riverdiamond.ir" method="post" enctype="text/plain">
-          <tr>
+          <div class="field">
             <td>نام:</td>
             <td>
               <input type="text" name="firstname" />
             </td>
-          </tr>
+          </div>
 
-          <tr>
+          <div class="field">
             <td> نام خانوادگی:</td>
             <td>
               <input type="text" name="lastname" />
             </td>
-          </tr>
+          </div>
 
-          <tr>
+          <div class="field">
             <td> ایمیل: </td>
             <td>
               <input type="text" name="email" placeholder="m@example.com" />
             </td>
-          </tr>
+          </div>
 
-          <tr>
+          <div class="field">
             <td> پیغام: </td>
             <td>
               <textarea rows="10" cols="30"></textarea>
             </td>
-          </tr>
+          </div>
 
-          <tr>
+          <div class="field">
             <td></td>
             <td>
               <input class="buttonsform" type="submit" value="Send Info" />

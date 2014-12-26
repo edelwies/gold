@@ -216,9 +216,16 @@ input.buttonsform {
    padding: 2em 3em;
 
 }
-.left-content, .right-content {
+.left-content, .right-content{
    width: 50%;
    text-align: center;
+}
+
+.center-content {
+   margin-left: 20%;
+   width: 60%;
+   text-align: center;
+
 }
 
 .left-content {
@@ -301,4 +308,47 @@ input.buttonsform {
 
 .button.green:hover {
    background: #879330;
+}
+
+.button.left {
+   float: left;
+   width: 48%;
+}
+
+.field .button {
+   border-top: none;
+   border-left: none;
+   border-right: none;
+}
+.button.right {
+   float: right;
+   width:48%;
+}
+
+fieldset{
+   direction: rtl;
+   border: 1px solid #cecece;
+   text-align: right;
+   padding: 1em;
+}
+
+label {
+   display:block;
+   padding: 0.3em 0;
+}
+.field {
+   margin-top: 2em;
+}
+
+input[type="text"], textarea {
+   padding: 0.5em;
+   width: 70%;
+   font-size: 1.2em;
+   border: 1px solid #cecece;
+   border-radius: 3px;
+}
+
+input[type="text"]:focus {
+   border: 1px solid #ababab;
+
 }
