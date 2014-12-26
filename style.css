@@ -137,15 +137,19 @@ td img {
 }
 
 td.product-link a img {
-   border-radius: 150px;
+   border-radius: 50%;
+   width: 200px;
+   height: 200px;
+   position: relative;
    border: 3px solid #eaeaea;
 }
 td.product-link a:hover img {
-   border-radius: 150px;
+   border-radius: 50%;
    border: 3px solid #009989;
 }
 
 .footer {
+   margin-top: 150px;
    background-color: #3f3f3f;
    color: white;
    width: 100%;
@@ -278,6 +282,10 @@ input.buttonsform {
    border-bottom: 5px solid #901025;
 }
 
+.button.red.active {
+   background: #901025;
+}
+
 .button.red:hover {
    background: #901025;
 }
@@ -299,7 +307,7 @@ input.buttonsform {
 
 }
 
-.button.orange:hover {
+.button.orange:hover, .button.orange.active {
    background: #b83911;
 }
 
@@ -309,7 +317,7 @@ input.buttonsform {
    border-bottom: 5px solid #cba51e;
 }
 
-.button.yellow:hover {
+.button.yellow:hover, .button.yellow.active {
    background: #cba51e;
 }
 
@@ -319,7 +327,7 @@ input.buttonsform {
    border-bottom: 5px solid #879330;
 }
 
-.button.green:hover {
+.button.green:hover, .button.green.active {
    background: #879330;
 }
 
