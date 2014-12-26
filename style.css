@@ -3,6 +3,9 @@
    margin: 0;
    color: #3f3f3f;
 }
+html {
+   background: #f2f2f2;
+}
 
 a {
    text-decoration: none;
@@ -97,7 +100,7 @@ a {
 
 .content {
    //border-top: 10px solid #EEE8AA;
-   height: 550px;
+   min-height: 750px;
 }
 
 .left-side-menu  {
@@ -112,9 +115,6 @@ a {
    //height: 100px;
 }
 
-a {
-   text-decoration: none;
-}
 
 /* table, td {
      border: 1px solid black;
@@ -125,6 +125,7 @@ td.product-link {
 
 table {
    width: 500px;
+   height: 600px;
    float: left;
    margin-top: 20px;
    margin-left: 50px;
@@ -135,21 +136,31 @@ td img {
    width: 150;
 }
 
+td.product-link a img {
+   border-radius: 150px;
+   border: 3px solid #eaeaea;
+}
 td.product-link a:hover img {
    border-radius: 150px;
-  border:1px solid #0000ff;
-   display: block;
+   border: 3px solid #009989;
 }
+
 .footer {
-   background-color: #D4AF37;
+   background-color: #3f3f3f;
+   color: white;
    width: 100%;
    height: 30px;
+   padding-top: 30px;
    text-align: center;
    font-size: small;
-   border-bottom: 5px solid #EEE8AA;
    display: block;
-
 }
+
+.footer a {
+   padding: 10px 20px;
+   color: white;
+}
+
 .list-menu a {
    padding-right: 30px;
 }
@@ -157,6 +168,12 @@ td.product-link a:hover img {
 .nav-group {
    margin-top: 20px;
 }
+
+table {
+   margin-left: 50px;
+}
+
+
 .table-form {
    float: right;
    direction: rtl;
@@ -187,21 +204,39 @@ input.buttonsform {
    margin-top: 100px;
    margin-left: 80px;
 }
-.content p {
+.content .segment {
    direction: rtl;
    margin-top: 200px;
    margin-right: 50px;
    float: right;
-   background-color: gray;
+   background-color: white;
+   border-radius: 4px;
+   border: 1px solid #cacaca;
+   border-bottom: 5px solid #F85931;
+   padding: 2em 3em;
 
+}
+.left-content, .right-content {
+   width: 50%;
+   text-align: center;
+}
+
+.left-content {
+   float: left;
+}
+
+.right-content {
+   float: right;
 }
 
 .content img.about {
-
+   background: white;
+   border: 1px solid #cacaca;
    margin-top:50px;
    margin-left: 150px;
 
  }
+
 .content img.about:hover {
    height: 500px;
    width: 500px;
