@@ -1,0 +1,69 @@
+
+
+﻿
+
+
+
+
+
+
+
+
+
+	/**
+    * 接受配置参数
+    * @param v 参数
+    * @param def 默认值
+    */
+	function request(v, def) {
+    	if(typeof v !== 'undefined'){
+        	return v; 
+        }else{
+        	return def;
+        }
+    }
+    
+    /**
+    * 添加脚本
+    * @param src 脚本路径
+    */
+	function addScript(src, charset)
+    {
+    	document.write('<script src="' + src + '"  charset="'+ charset +'"><\/script>');
+    }
+    
+    var Fps_Conf_shopId = "1573";
+    var Fps_Conf_siteId = "1";
+    var Fps_Conf_webWadarIndex = "0";
+	var Fps_Conf_iconShopId="0";
+    //逻辑服务器地址
+    Fps_Conf_LogicServer = typeof Fps_Conf_LogicServer  != "undefined" ? Fps_Conf_LogicServer : "im.tradevv.com";	 
+    
+    //通讯服务器地址
+    Fps_Conf_socketServer = typeof Fps_Conf_socketServer  != "undefined" ? Fps_Conf_socketServer : "im.tradevv.com";	
+    //静态文件访问端口
+    Fps_Conf_ngPort = typeof Fps_Conf_ngPort  != "undefined" ? Fps_Conf_ngPort : "8080";	
+    Fps_Conf_logicPort = typeof Fps_Conf_logicPort  != "undefined" ? Fps_Conf_logicPort : "8080";	
+    //软件版本
+	var Fps_Conf_version = request(Fps_Conf_version, '2011011010');
+    //是否使用代理服务器
+	var Fps_Conf_connectType = request(Fps_Conf_connectType, 'socket');
+    //界面模版根目录
+	var Fps_Conf_basePath = 'http://im.tradevv.com:8080/cimls/webtm/templets/';
+    //系统当前所采用的样式
+    var Fps_Conf_templets = 'ECKJ';
+	var Fps_Conf_Language = 'english';
+    //界面模版文件路径
+    var Fps_Conf_tempHtmlPath = 'http://im.tradevv.com:8080/cimls/webtm/templets/ECKJ/';
+	//配置文件 根据不同的客户需求定制功能 配置参数
+	addScript("http://im.tradevv.com:8080/cimls/webtm/templets/Config.js?2011011010.js", "utf-8");
+	//配置文件 根据不同的客户需求定制功能 配置参数
+	//addScript("http://im.tradevv.com:8080/cimls/webtm/templets/ECKJ/Config.js?2011011010.js", "utf-8");
+	//语言包
+	 
+	 
+	addScript("http://im.tradevv.com:8080/cimls/webtm/templets/lang/english.js?2011011010.js", "utf-8");
+    //界面模版文件
+	addScript("http://im.tradevv.com:8080/cimls/webtm/js/CIM2011_Temple_ECKJ.js?2011011010.js", "utf-8");
+	//javascript主程序
+	addScript("http://im.tradevv.com:8080/cimls/webtm/js/CIM2011_Main.js?2011011010.js", "utf-8");

@@ -1,0 +1,1 @@
+try{var cimdataXML={"cim":{"result":{"code":"13","msg":"加载网站雷达错误","serverTime":"2014-12-22 15:54:20","errorCode":""}}};Fps.GetServerData.saveShopGuestData(cimdataXML);}catch(ex){};
